@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<h1 class="header-text">Choose your fighter</h1>
+<div class="player-img-holder">
+  <img class="img-player" src="assets/rock.png" alt="rock" onclick="checkVictory('rock')">
+  <img class="img-player" src="assets/paper.png" alt="paper" onclick="checkVictory('paper')">
+  <img class="img-player" src="assets/scissors.png" alt="scissors" onclick="checkVictory('scissors')">
+</div>
+
+<div class="comp-img-holder">
+  <h2 class="header-text">Computer has chosen</h2>
+    <img id="comp-img" src="">
+
+</div>
+
+<div class="result-holder">
+
+  <img id="result" src="">
+
+</div>
+
+<script src="supergame_script.js"></script>
+</body>
+</html>

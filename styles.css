@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: Lato;
+    color: white;
+    background-color: #5c5c5c;
+}
+
+.img-player{
+    cursor: pointer;
+}
+
+#result{
+    width: 140px;
+}
