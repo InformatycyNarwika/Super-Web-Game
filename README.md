@@ -1,1 +1,1 @@
-SuperGame
+Super Web Game
